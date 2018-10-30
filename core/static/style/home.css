@@ -33,7 +33,7 @@ nav ul li a{
     color: #FFF;
     padding: 4px 20px;
 }
-nav ul li a:hover { background-color:#838B83;}
+nav ul li a:hover { background-color:#838B83;border-radius: 15px;}
 
 main{
     width:1200px;
@@ -129,9 +129,24 @@ p, li{
 }
 .img-bkns-pe{
     width: 130px;
-    margin-left: 80px;
-    text-align:center;
+    margin-left: 110px;
+    margin-top: 40px;
 }
 .h3-fb{
     text-align: center;
+}
+.botaologin{
+    margin-left: 69px;
+    position: absolute;
+    font-weight: bold;
+    background-color: purple;
+    border-radius: 15px;
+}
+.botaologin :hover{
+    background-color: #BA55D3;
+    border-radius: 15px;
+}
+
+.h1-areadoalunoheader{
+    color: white;
 }
