@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="../static/style/home.css">
         <link rel="stylesheet" href="../static/style/form.css">
         <script src="../static/scripts/telefone.js" defer></script>
+        <script src="../static/scripts/cpf.js" defer></script>
         <title>Faculdade Bakanas</title>
         <link rel="shortcut icon" href="../static/images/favicon.png"/>
     </head>
@@ -29,6 +30,7 @@
                   <li><a href="/detalhescurso">Detalhes do Curso</a></li>
                   <li><a href="/disciplinas">Disciplina</a></li>
                   <li><a href="/noticias">Noticias</a></li>
+                  <li class="botaologin"><a href="login">Login</a><li></li>
                 </ul>
             </nav>
 
@@ -60,10 +62,11 @@
                         <input id="email" type="email" name="desemail" placeholder="E-mail" required>
                     </div>
                     <div class="field-inscricao">
-                        <input name="telefone" id="telefone-f1" type="text" placeholder="Telefone" required>
+                        <input name="telefone" id="telefone-f1" type="text" placeholder="Telefone" required maxlength="15">
                     </div>
                     <div class="field-inscricao">
-                        <input id="cpf" type="text" name="descpf" placeholder="CPF" required>
+                        <!-- <input id="cpf" type="text" name="descpf" placeholder="CPF" required> -->
+                        <input type="text" name="cpf" id="mCPF" placeholder="CPF" required onkeydown="javascript: fMasc( this, mCPF );" maxlength="14">
                     </div>
                     <div class="field-inscricao select-style">
                         <select id="periodo" type="select" name="periodos" required>
