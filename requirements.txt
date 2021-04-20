@@ -41,7 +41,7 @@ pluggy==0.6.0
 portend==2.2
 post==1.0.2
 public==1.0.3
-py==1.5.2
+py==1.10.0
 pycparser==2.18
 PyJWT==1.6.4
 pylint==1.9.2
